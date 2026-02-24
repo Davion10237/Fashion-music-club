@@ -206,3 +206,27 @@ footer {
 #submit button:hover {
   background: #6E9FFF;
 }
+/* NAVBAR LAYOUT */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #6E9FFF;
+}
