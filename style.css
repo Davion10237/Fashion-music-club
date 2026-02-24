@@ -53,8 +53,12 @@ header p {
 
 /* SECTIONS */
 section {
+  background: #ffffff;
+  margin: 40px auto;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.04);
   padding: 60px 20px;
-  text-align: center;
 }
 
 h2 {
