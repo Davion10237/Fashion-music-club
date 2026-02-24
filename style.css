@@ -13,7 +13,7 @@ html {
 /* NAV */
 nav {
   text-align: center;
-  background: #ffffff;
+  background: #E6F0FF;
   padding: 15px 0;
   position: sticky;
   top: 0;
@@ -164,7 +164,7 @@ footer {
 #submit {
   padding: 80px 20px;
   text-align: center;
-  background: #ffffff;
+  background: #E6F0FF;
   border-top: 1px solid #ddd;
 }
 
