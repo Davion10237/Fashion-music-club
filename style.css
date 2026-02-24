@@ -210,3 +210,7 @@ footer {
 #submit button:hover {
   background: #6E9FFF;
 }
+/* Offset for anchor links so sections aren't hidden behind nav */
+section {
+  scroll-margin-top: 90px;
+}
