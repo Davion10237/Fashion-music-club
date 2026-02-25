@@ -88,24 +88,26 @@ h2 {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
-
-/* GALLERY */
-.gallery-container img {
-  width: 100%;
-  height: auto;        /* shows full image */
-  border-radius: 12px;
-  display: block;
+/* GALLERY LAYOUT */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.gallery img {
+/* GALLERY IMAGES */
+.gallery-container img {
   width: 100%;
-  height: 250px;           /* controls size */
-  object-fit: cover;       /* crops nicely instead of stretching */
+  height: auto;         /* shows full image */
   border-radius: 12px;
+  display: block;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.gallery img:hover {
+/* Hover effect */
+.gallery-container img:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 25px rgba(0,0,0,0.2);
 }
