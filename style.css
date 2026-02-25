@@ -90,11 +90,11 @@ h2 {
 }
 
 /* GALLERY */
-.gallery-container {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  flex-wrap: wrap;
+.gallery-container img {
+  width: 100%;
+  height: auto;        /* shows full image */
+  border-radius: 12px;
+  display: block;
 }
 
 .gallery img {
