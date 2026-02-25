@@ -97,16 +97,15 @@ h2 {
   flex-wrap: wrap;
 }
 
-.gallery-container img {
-  width: 300px;
-  border-radius: 12px;
-  transition: 0.3s ease;
-  border: 1px solid #ddd;
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-gallery-container img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
 }
 
 /* FORM */
