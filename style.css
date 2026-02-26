@@ -87,7 +87,7 @@ h2 {
 .event:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-
+}
 /* FORM */
 form {
   max-width: 450px;
