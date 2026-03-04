@@ -270,3 +270,53 @@ section {
   margin: 0 auto 30px auto;
   border-radius: 12px;
 }
+/* CREATIVE SHOWCASE GRID */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Individual Card */
+.gallery-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text Section */
+.card-info {
+  padding: 20px;
+  text-align: left;
+}
+
+.card-info h3 {
+  margin: 0 0 5px 0;
+}
+
+.major {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #6E9FFF;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
